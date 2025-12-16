@@ -18,7 +18,7 @@ for day in range(days):
     print("-" * 30)
 
     for item in items:
-        print(item)
+        print(item) 
 
     input("\nAppuie sur Entrée pour passer au jour suivant...")
 

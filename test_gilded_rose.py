@@ -3,10 +3,10 @@ from gilded_rose import Item, GildedRose
 
 def test_normal_item_degrades():
     item = Item("Elixir of the Mongoose", 5, 7)
-    GildedRose([item]).update_quality()
+    GildedRose([item]).update_quality() 
     assert item.sell_in == 4
     assert item.quality == 6
-
+  
 
 def test_quality_never_negative():
     item = Item("Elixir of the Mongoose", 0, 0)
